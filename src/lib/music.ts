@@ -14,4 +14,3 @@ export const sawSynth = new Tone.MonoSynth({
 export function play(player: Tone.Synth<Tone.SynthOptions>|Tone.MonoSynth|Tone.NoiseSynth, frequency: Tone.Unit.Frequency){
     player.triggerAttackRelease(frequency, "8n");
 };
-
